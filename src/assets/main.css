@@ -1,0 +1,120 @@
+@import './base.css';
+
+* {
+  color: black;
+}
+
+#app {
+    .btn {
+      &--submit {
+
+      }
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 24px;
+      color:#000000;
+      font-weight:500;
+      span {
+        color:#667085;
+        font:24px;
+      }
+    }
+    .v-label {
+      font-weight: 500;
+      font-size: 16px;
+      color: #344054!important;
+      width: 250px; 
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      margin-top: -18px;
+      margin-left: 40px;
+      color: #475467;
+      white-space: nowrap; 
+      width: 350px; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .v-input__control {
+      margin: 0px 8px 8px 0px;
+    }
+    .v-btn__content {
+      color: white;
+    }
+    
+    .v-field__overlay {
+      background: white;
+    }
+
+    .v-field {
+      border-radius: 22px;
+      border: 1px solid #475467;
+    }
+
+
+    .err {
+      .v-field {
+        border: 1px solid red;
+      }
+    }
+    .v-selection-control--disabled {
+      opacity: 1!important;
+    }
+
+    .mdi-checkbox-marked {
+      color: #7F56D9!important;
+    }
+
+    .mdi-checkbox-blank-outline {
+      opacity: .3;
+    }
+
+    .v-col {
+      margin: auto;
+    }
+
+    .exp-dates {
+      .date {
+        color: #F04438!important;
+      }
+    }
+    .v-input__details {
+      display: none;
+    }
+    .task-name {
+      .v-input {
+        margin-left: 9vw;
+      }
+    }
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+  }
+
+  #app {
+
+  }
+}
+
+
